@@ -8,31 +8,28 @@ Educators often want early insight into which students might struggle academical
 
 ## 📊 Dataset
 
-<!-- FILL IN: replace with your actual dataset details -->
-- **Source:** _[e.g. "Students Performance in Exams" dataset on Kaggle — add link here]_
-- **Size:** _[number of rows/records]_
-- **Features:** _[list the main features, e.g. Gender, Race/Ethnicity, Parental Level of Education, Lunch Type, Test Preparation Course, Reading Score, Writing Score]_
+- **Source:** _[Kaggle]_
+- **Size:** _[(1000*8)]_
 - **Target variable:** Math Score
 
 ## 🧠 Approach
 
 1. **Data Cleaning & Preprocessing** — checked for missing values/duplicates and encoded categorical features (e.g. gender, parental education level, test preparation course) using One-Hot / Label Encoding.
 2. **Exploratory Data Analysis (EDA)** — explored relationships between demographic/academic features and math score using Pandas, Matplotlib, and Seaborn (e.g. effect of test preparation, parental education level, and reading/writing scores on math score).
-3. **Feature Engineering** — <!-- FILL IN: e.g. combined reading + writing score as an average academic indicator -->
+3. **Feature Engineering** 
 4. **Model Training** — trained and compared regression algorithms using Scikit-learn:
-   - <!-- FILL IN: e.g. Linear Regression, Random Forest Regressor, Gradient Boosting Regressor -->
+   - Linear Regression, Random Forest Regressor, Gradient Boosting Regressor
    - Selected **[FILL IN: your best model]** as the final model based on validation performance.
-5. **Evaluation** — evaluated using **R² score** (achieved **88%**) <!-- add RMSE/MAE here if you have them -->.
+5. **Evaluation** — evaluated using **R² score** (achieved **88%**).
 
 ## 📈 Results
 
 | Metric | Score |
 |---|---|
 | R² / Accuracy | **88%** |
-| <!-- RMSE --> | <!-- FILL IN --> |
-| <!-- MAE --> | <!-- FILL IN --> |
+| <!-- RMSE --> | <!-- 5.32 --> |
+| <!-- MAE --> | <!-- 4.26 --> |
 
-<!-- Optional: add a screenshot here, e.g. ![Actual vs Predicted Scores](assets/actual_vs_predicted.png) -->
 
 ## 🛠️ Tools & Libraries
 
