@@ -27,8 +27,8 @@ Educators often want early insight into which students might struggle academical
 | Metric | Score |
 |---|---|
 | R² / Accuracy | **88%** |
-| <!-- RMSE --> | <!-- 5.32 --> |
-| <!-- MAE --> | <!-- 4.26 --> |
+|  RMSE |  5.32  |
+|  MAE  |  4.26  |
 
 
 ## 🛠️ Tools & Libraries
